@@ -8,6 +8,7 @@
     <name>gulimail</name>
     <description>聚合服务</description>
     <packaging>pom</packaging>
+    <!--github上偷摸改点东西-->     
 
     <modules>
         <module>gulimail-coupon</module>
