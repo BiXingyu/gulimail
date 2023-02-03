@@ -1,10 +1,10 @@
-package com.bixingyu.gulimall.coupon;
+package com.bixingyu.gulimall.member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GulimailCouponApplicationTests {
+class GulimallMemberApplicationTests {
 
     @Test
     void contextLoads() {
