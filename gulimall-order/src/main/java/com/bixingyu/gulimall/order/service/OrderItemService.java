@@ -1,0 +1,20 @@
+package com.bixingyu.gulimall.order.service;
+
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.bixingyu.common.utils.PageUtils;
+import com.bixingyu.gulimall.order.entity.OrderItemEntity;
+
+import java.util.Map;
+
+/**
+ * 订单项信息
+ *
+ * @author bixingyu
+ * @email bixingyu@gmail.com
+ * @date 2023-02-05 17:33:33
+ */
+public interface OrderItemService extends IService<OrderItemEntity> {
+
+    PageUtils queryPage(Map<String, Object> params);
+}
+
